@@ -1,0 +1,7 @@
+.name-form,
+.greetings {
+  display: none;
+}
+.show-form {
+  display: block;
+}
