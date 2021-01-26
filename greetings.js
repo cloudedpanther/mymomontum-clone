@@ -10,7 +10,7 @@ function saveUserName(text) {
     localStorage.setItem(USER_LS, text);
 }
 
-function handleSubmit(event) {
+function handleNameSubmit(event) {
     event.preventDefault();
     const currentValue = input.value;
     saveUserName(currentValue);
@@ -19,7 +19,7 @@ function handleSubmit(event) {
 
 function askForName() {
     form.classList.add(SHOW_CN);
-    form.addEventListener("submit", handleSubmit);
+    form.addEventListener("submit", handleNameSubmit);
 }
 
 function paintGreetings(text){ // What is this 'text' thing? Is it a pre-defined constant?
