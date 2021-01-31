@@ -7,17 +7,28 @@
     <title>Momontum-Clone</title>
   </head>
   <body>
-    <div class="js-clock">
-      <h1 class="js-clock__title">00:00</h1>
+    <div class="weather">
+      <span class="js-weather"></span>
     </div>
-    <form class="js-name-form name-form">
-      <input type="text" placeholder="What is your name?" />
-    </form>
-    <h4 class="js-greetings greetings">say hello to user</h4>
-    <form class="js-todo-form">
-      <input type="text" placeholder="Write a to do" />
-    </form>
-    <ul class="js-todo-list"></ul>
+
+    <main>
+      <div class="js-clock clock">
+        <h1 class="js-clock__title">00:00</h1>
+      </div>
+
+      <form class="js-name-form name-form">
+        <input type="text" placeholder="What is your name?" />
+      </form>
+      <h4 class="js-greetings greetings">say hello to user</h4>
+
+      <form class="js-todo-form todo-form">
+        <input type="text" placeholder="Write a to do" />
+      </form>
+      <div class="todo-box">
+        <ul class="js-todo-list todo-list"></ul>
+      </div>
+    </main>
+
     <script src="clock.js"></script>
     <script src="greetings.js"></script>
     <script src="todo.js"></script>
